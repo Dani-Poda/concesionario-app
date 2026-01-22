@@ -1,1 +1,10 @@
-<p>products-detail-component works!</p>
+<div *ngIf="car">
+  <h2>{{car.marca}} {{car.modelo}}</h2>
+  <img [src]="car.imagen" [alt]="car.marca + ' ' + car.modelo">
+  <p>Año: {{car.year}}</p>
+  <p>{{car.kilometraje | number}} Km</p>
+  <p>{{car.combustible}}</p>
+  <p>{{car.descripcion}}</p>
+  <p>{{car.precio | currency: 'EUR': 'symbol': '1.0-0'}}</p>
+  <button (click)="addFavorite()">Añadir a favoritos</button>
+</div>
