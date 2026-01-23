@@ -1,8 +1,8 @@
 <h2>El coche que estás buscando está aquí:</h2>
 
-<div>
-  <div *ngFor="let car of cars">
-    <img [src]="car.imagen" [alt]="car.marca + ' ' + car.modelo " >
+<div class="cars-container">
+  <div *ngFor="let car of cars" class="car-card" >
+    <img [src]="car.imagen" [alt]="car.marca + ' ' + car.modelo ">
     <h3>{{car.marca}} {{car.modelo}}</h3>
     <p>Año: {{car.year}}</p>
     <p>{{car.precio | currency:'EUR': 'symbol': '1.0-0'}}</p>

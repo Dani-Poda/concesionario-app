@@ -1,1 +1,14 @@
-<p>cart-component works!</p>
+<h2>Mis favoritos:</h2>
+
+<p *ngIf="items.length === 0" class="empty-message">En estos momentos no tienes ningún favorito guardadado.</p>
+
+<div *ngIf="items.length > 0" class="cars-container">
+  <div *ngFor="let item of items" class="car-card" >
+    <img [src]="item.imagen" [alt]="item.marca + ' ' + item.modelo " >
+    <h3>{{item.marca}} {{item.modelo}}</h3>
+    <p>Año: {{item.year}}</p>
+    <p>{{item.precio | currency:'EUR': 'symbol': '1.0-0'}}</p>
+    <button [routerLink]="['/products', item.id]">Ver detalles</button>
+    <button (click)="removeItem(item.id)" class="btn-delete">Borrar de favoritos</button>
+  </div>
+</div>

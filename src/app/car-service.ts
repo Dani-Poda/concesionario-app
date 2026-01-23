@@ -26,7 +26,7 @@ export class CarService {
       precio: 18500,
       kilometraje: 45000,
       combustible: 'Gasolina',
-      imagen: 'https://via.placeholder.com/400x300?text=Toyota+Corolla',
+      imagen: 'https://www.carpro.com/hubfs/car-review-blog/review_337163_1.jpeg.jpg',
       descripcion: 'Berlina compacto en perfecto estado, único dueño, historial completo.',
       destacado: true
     },
@@ -38,7 +38,7 @@ export class CarService {
       precio: 24900,
       kilometraje: 32000,
       combustible: 'Gasolina',
-      imagen: 'https://via.placeholder.com/400x300?text=VW+Golf+GTI',
+      imagen: 'https://www.autonocion.com/wp-content/uploads/2019/07/Prueba-Volkswagen-Golf-GTI-TCR-2019-7-930x620.jpg',
       descripcion: 'Deportivo compacto con acabados premium y gran equipamiento.',
       destacado: true
     },
@@ -50,7 +50,7 @@ export class CarService {
       precio: 28500,
       kilometraje: 58000,
       combustible: 'Diésel',
-      imagen: 'https://via.placeholder.com/400x300?text=BMW+Serie+3',
+      imagen: 'https://impx.hwntcdn.com/i/raw:1/plain/https://composer.hwntcdn.com/193/used/bmw-3-series-20-320d-m-sport-shadow-edition-euro-6-s-s-4dr-34938-ytbjhr5m.jpg',
       descripcion: 'Berlina premium con motor diésel eficiente y gran confort.',
       destacado: false
     },
@@ -62,7 +62,7 @@ export class CarService {
       precio: 32000,
       kilometraje: 28000,
       combustible: 'Diésel',
-      imagen: 'https://via.placeholder.com/400x300?text=Audi+A4',
+      imagen: 'https://files.ekmcdn.com/hazzydayzshop/images/audi-a4-avant-2021-2.0-tdi-35-s-line-163ps-s-tronic-euro-6-ulez-11432-p.jpeg',
       descripcion: 'Familiar espacioso con tecnología avanzada y bajo consumo.',
       destacado: true
     },
@@ -74,7 +74,7 @@ export class CarService {
       precio: 29500,
       kilometraje: 42000,
       combustible: 'Gasolina',
-      imagen: 'https://via.placeholder.com/400x300?text=Mercedes+C200',
+      imagen: 'https://images1.autocasion.com/actualidad/wp-content/uploads/2019/07/Prueba-del-Mercedes-C200-de-gasolina-2019-Rub%C3%A9n-Fidalgo-1.jpg',
       descripcion: 'Elegancia y tecnología en una berlina de lujo alemana.',
       destacado: false
     },
@@ -86,7 +86,7 @@ export class CarService {
       precio: 22000,
       kilometraje: 38000,
       combustible: 'Gasolina',
-      imagen: 'https://via.placeholder.com/400x300?text=Ford+Focus+ST',
+      imagen: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/20-ford-focus-2019-lt-static.jpg?itok=MfSLsAtu',
       descripcion: 'Compacto deportivo con gran dinamismo y equipamiento.',
       destacado: true
     },
@@ -98,7 +98,7 @@ export class CarService {
       precio: 21500,
       kilometraje: 25000,
       combustible: 'Gasolina',
-      imagen: 'https://via.placeholder.com/400x300?text=Seat+Leon',
+      imagen: 'https://www.autonocion.com/wp-content/uploads/2021/06/prueba-seat-leon-tdi-ext19-930x559.jpg',
       descripcion: 'Compacto español con diseño deportivo y bajo consumo.',
       destacado: false
     },
@@ -110,7 +110,7 @@ export class CarService {
       precio: 26500,
       kilometraje: 35000,
       combustible: 'Diésel',
-      imagen: 'https://via.placeholder.com/400x300?text=Mazda+CX5',
+      imagen: 'https://hips.hearstapps.com/hmg-prod/images/mazda-cx5-my2020-13-1592825407.jpg?crop=0.699xw:0.525xh;0.301xw,0.387xh&resize=640:*',
       descripcion: 'SUV compacto con diseño elegante y gran habitabilidad.',
       destacado: false
     },
@@ -122,7 +122,7 @@ export class CarService {
       precio: 28000,
       kilometraje: 22000,
       combustible: 'Híbrido',
-      imagen: 'https://via.placeholder.com/400x300?text=Peugeot+3008',
+      imagen: 'https://imagenes.autobild.es/files/image_1920_1080/uploads/imagenes/2023/05/29/68cea1ca2f782.jpeg',
       descripcion: 'SUV híbrido con tecnología de vanguardia y bajo consumo.',
       destacado: true
     },
@@ -134,7 +134,7 @@ export class CarService {
       precio: 25500,
       kilometraje: 40000,
       combustible: 'Gasolina',
-      imagen: 'https://via.placeholder.com/400x300?text=Renault+Megane+RS',
+      imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy5FrJXAWNRj7RnelAUp7Gfc2q8q9viZ9pEA&s',
       descripcion: 'Compacto deportivo francés con prestaciones excepcionales.',
       destacado: false
     }

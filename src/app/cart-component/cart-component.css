@@ -1,0 +1,14 @@
+.empty-message {
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+  margin: 50px 0;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}

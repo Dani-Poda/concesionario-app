@@ -1,7 +1,7 @@
 <h2>Nuestros coches destacados del mes</h2>
 
-<div>
-  <div *ngFor="let car of cocheDestacados">
+<div class="cars-container">
+  <div *ngFor="let car of cocheDestacados" class="car-card">
     <img [src]="car.imagen" [alt]="car.marca + ' ' + car.modelo">
     <h3>{{car.marca}} {{car.modelo}}</h3>
     <p>Año: {{car.year}}</p>
