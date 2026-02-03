@@ -6,7 +6,7 @@
     <h3>{{car.marca}} {{car.modelo}}</h3>
     <p>Año: {{car.year}}</p>
     <p>{{car.kilometraje | number}} Km</p>
-    <p>{{car.precio | currency:'EUR':'symbol':'1.0-0'}}</p>
+    <p class="price">{{car.precio | currency:'EUR':'symbol':'1.0-0'}}</p>
     <button [routerLink]="['/products', car.id]">Ver detalles</button>
   </div>
 </div>

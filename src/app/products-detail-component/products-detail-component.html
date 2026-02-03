@@ -1,10 +1,29 @@
-<div *ngIf="car">
-  <h2>{{car.marca}} {{car.modelo}}</h2>
-  <img [src]="car.imagen" [alt]="car.marca + ' ' + car.modelo">
-  <p>Año: {{car.year}}</p>
-  <p>{{car.kilometraje | number}} Km</p>
-  <p>{{car.combustible}}</p>
-  <p>{{car.descripcion}}</p>
-  <p>{{car.precio | currency: 'EUR': 'symbol': '1.0-0'}}</p>
-  <button (click)="addFavorite()">Añadir a favoritos</button>
+<div class="product-container" *ngIf="car">
+  <div class="product-layout">
+    
+    <div class="image-section">
+      <img [src]="car.imagen" [alt]="car.marca + ' ' + car.modelo">
+    </div>
+
+    <div class="details-section">
+      <h2 class="audiowide-title">{{car.marca}} <span>{{car.modelo}}</span></h2>
+      
+      <div class="specs-grid">
+        <div class="spec-item"><strong>AÑO</strong> {{car.year}}</div>
+        <div class="spec-item"><strong>KMS</strong> {{car.kilometraje | number}}</div>
+        <div class="spec-item"><strong>MOTOR</strong> {{car.combustible}}</div>
+      </div>
+
+      <p class="description">{{car.descripcion}}</p>
+      
+      <h3 class="price-detail">{{car.precio | currency: 'EUR': 'symbol': '1.0-0'}}</h3>
+
+      <div class="actions">
+        <button class="btn-fav" (click)="addFavorite()">
+          <span class="heart-icon">♥</span> Añadir a favoritos
+        </button>
+      </div>
+    </div>
+
+  </div>
 </div>

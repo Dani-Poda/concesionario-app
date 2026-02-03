@@ -1,54 +1,104 @@
-div {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 40px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.product-container {
+  width: 90%;
+  margin: 60px auto;
+  padding: 30px;
+  background: #161B22; 
+  border-radius: 20px;
+  border: 1px solid #2D3748;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
-h2 {
-  color: #2c3e50;
-  margin-bottom: 30px;
-  font-size: 36px;
+.product-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.image-section {
+  flex: 1.2;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.details-section {
+  flex: 1;
+}
+
+.audiowide-title {
+  font-family: 'Audiowide', cursive;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.audiowide-title span {
+  color: #00F2FF; 
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid #2D3748;
+  border-bottom: 1px solid #2D3748;
+  padding: 15px 0;
+}
+
+.spec-item {
+  color: #D1D5DB;
+  font-size: 0.9rem;
   text-align: center;
 }
 
-img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 12px;
-  margin: 20px auto;
+.spec-item strong {
   display: block;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #9CA3AF;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.8;
-  margin: 15px 0;
-  color: #555;
+.description {
+  color: #9CA3AF;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-strong {
-  color: #2c3e50;
-  font-weight: 600;
+.price-detail {
+  font-size: 2.5rem;
+  color: #D4AF37;
+  font-weight: 800;
+  margin: 30px 0;
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
 }
 
-button {
-  margin: 15px 10px 0 0;
-  padding: 12px 30px;
-  background-color: #27ae60;
-  color: white;
-  border: none;
-  border-radius: 8px;
+.btn-fav {
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease;
 }
 
-button:hover {
-  background-color: #229954;
+.btn-fav:hover {
+  background: #FFFFFF;
+  color: #0B0E14;
+}
+
+.heart-icon {
+  color: #ff4d4d;
+  margin-right: 8px;
 }

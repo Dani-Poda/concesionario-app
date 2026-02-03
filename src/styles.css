@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Audiowide';
+  src: url('/assets/fonts/Audiowide-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monserrat';
+  src: url('./assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,25 +29,24 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #0B0E14;
+  background: radial-gradient(circle at top, #161B22 0%, #0B0E14 100%);
+  background-attachment: fixed;
 }
 
 h1 {
+  font-family: 'Audiowide',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
-  color: #2c3e50;
-  font-size: 48px;
-  margin: 30px 0;
-  padding: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #00F2FF;
+  font-size: 72px;
+  padding: 40px;
+  background-color: #0B0E14;
 }
 
 h2 {
   text-align: center;
-  color: #2c3e50;
+  color: #D1D5DB;
+  font-family: 'Roboto', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 32px;
   margin: 20px 0;
 }
@@ -35,21 +57,21 @@ h1, h2, h3 {
 
 .cars-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 25px;
-  padding: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .car-card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
+  background: #161B22;
+  border: 1px solid #00F2FF;
+  border-radius: 16px;
+  padding: 10px;
+  text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .car-card img {
@@ -61,35 +83,47 @@ h1, h2, h3 {
 }
 
 .car-card h3 {
+  font-family: 'Monserrat',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
-  color: #2c3e50;
+  font-weight: 700;
+  color: #FFFFFF;
   margin: 10px 0;
 }
 
 .car-card p {
-  color: #666;
+  color: #9CA3AF;
   margin: 8px 0;
   font-size: 15px;
 }
 
+.car-card .price {
+  font-size: 18px; /* Un poco más grande para que destaque */
+  color: #D4AF37; 
+  font-weight: 700;
+}
+
 .car-card button {
+  width: 100%;
   margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: white;
-  border: none;
+  padding: 12px;
+  background-color: transparent;
+  color: #00F2FF;
+  border: 2px solid #00F2FF;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 600;
-  transition: background-color 0.3s;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
 .car-card button:hover {
-  background-color: #2980b9;
+  background-color: #00F2FF;
+  color: #0B0E14;
 }
 
 .car-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-10px);
+  border-color: #00F2FF; /* Tu color de acento */
+  box-shadow: 0 0 20px rgba(0, 242, 255, 0.15); /* Brillo sutil */
 }

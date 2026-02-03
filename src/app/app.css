@@ -1,21 +1,42 @@
 nav {
-  background-color: rgb(16, 0, 30);
+  background-color: #161B22;
+  background: rgba(22, 27, 34, 0.8); backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1F2937;;
   padding: 10px;
   display: flex;
   gap: 10px;
-
-  a {
-    color: cornsilk;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 8px;
-    transition: all 0.3s;
-  }
-
-  a:hover {
-    background-color: rgb(50, 50, 50);
-    transform: scale(1.05);
-  }
 }
+
+a {
+  font-family: 'Monserrat',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  color: #9CA3AF;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #00F2FF;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color:  rgb(16, 0, 30);
+  color: cornsilk;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 
 
