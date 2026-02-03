@@ -1,13 +1,17 @@
-<h1>Concesionario PODADERA</h1>
+<div class="page-wrapper">
+  <div class="app-container">
+    <h1>Concesionario PODADERA</h1>
+    
+    <nav>
+      <a routerLink="/">Home</a>
+      <a routerLink="/products">Nuestro stock</a>
+      <a routerLink="/cart">Favoritos</a>
+    </nav>
+    
+    <router-outlet></router-outlet>
+  </div>
 
-<nav>
-  <a routerLink="/">Home</a>
-  <a routerLink="/products">Nuestro stock</a>
-  <a routerLink="/cart">Favoritos</a>
-</nav>
-
-<router-outlet></router-outlet>
-
-<footer>
-  <p>&copy; 2026 Copyright: <a href="https://github.com/Dani-Poda">Daniel Podadera</a></p>
-</footer>
+  <footer>
+    <p>&copy; 2026 Copyright: <a href="https://github.com/Dani-Poda">Daniel Podadera</a></p>
+  </footer>
+</div>
