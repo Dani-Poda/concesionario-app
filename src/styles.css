@@ -48,7 +48,7 @@ h2 {
   color: #D1D5DB;
   font-family: 'Roboto', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 32px;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 h1, h2, h3 {
@@ -97,7 +97,7 @@ h1, h2, h3 {
 }
 
 .car-card .price {
-  font-size: 18px; /* Un poco más grande para que destaque */
+  font-size: 18px; 
   color: #D4AF37; 
   font-weight: 700;
 }
@@ -124,6 +124,6 @@ h1, h2, h3 {
 
 .car-card:hover {
   transform: translateY(-10px);
-  border-color: #00F2FF; /* Tu color de acento */
-  box-shadow: 0 0 20px rgba(0, 242, 255, 0.15); /* Brillo sutil */
+  border-color: #00F2FF; 
+  box-shadow: 0 0 20px rgba(0, 242, 255, 0.15); 
 }

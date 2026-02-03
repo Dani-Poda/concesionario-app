@@ -24,18 +24,37 @@ a:hover {
 }
 
 footer {
-  background-color:  rgb(16, 0, 30);
-  color: cornsilk;
+  background-color: #0B0E14; 
+  color: #9CA3AF;
   text-align: center;
-  padding: 20px;
-  margin-top: 50px;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: 1px solid #1F2937;
 }
 
 footer p {
   margin: 0;
   font-size: 14px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
+
+footer a {
+  color: #D4AF37; 
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+  transform: scale(1.05);
+}
+
 
 
 

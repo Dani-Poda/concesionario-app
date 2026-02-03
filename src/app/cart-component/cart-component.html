@@ -7,7 +7,8 @@
     <img [src]="item.imagen" [alt]="item.marca + ' ' + item.modelo " >
     <h3>{{item.marca}} {{item.modelo}}</h3>
     <p>Año: {{item.year}}</p>
-    <p>{{item.precio | currency:'EUR': 'symbol': '1.0-0'}}</p>
+    <p>{{item.kilometraje | number}} Km</p>
+    <p class="price">{{item.precio | currency:'EUR': 'symbol': '1.0-0'}}</p>
     <button [routerLink]="['/products', item.id]">Ver detalles</button>
     <button (click)="removeItem(item.id)" class="btn-delete">Borrar de favoritos</button>
   </div>

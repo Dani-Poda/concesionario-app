@@ -5,10 +5,19 @@
   margin: 50px 0;
 }
 
+
 .btn-delete {
-  background-color: #e74c3c;
+  color: #FF2800;
+  border: 2px solid #FF2800;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
 .btn-delete:hover {
-  background-color: #c0392b;
+  background-color: #FF2800;
+  color: #0B0E14;
 }
